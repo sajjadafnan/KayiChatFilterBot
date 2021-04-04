@@ -51,7 +51,7 @@ async def cb_handler(client, query):
                     InlineKeyboardButton("⭕️ Join Group", url="https://t.me/KayiChat")
                 ],
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
+                    InlineKeyboardButton("BACK", callback_data="start_data"),
                     InlineKeyboardButton("CLOSE", callback_data="close_data"),
                 ]
             ]
