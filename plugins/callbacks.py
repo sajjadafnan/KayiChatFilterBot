@@ -25,7 +25,7 @@ from database.connections_mdb import(
 @trojanz.on_callback_query()
 async def cb_handler(client, query):
 
-    if query.data == "start_data":
+    if query.data == "close_data":
         await query.answer()
         keyboard = InlineKeyboardMarkup(
             [
@@ -42,7 +42,7 @@ async def cb_handler(client, query):
         )
         return
 
-    elif query.data == "help_data":
+    elif query.data == "close_data":
         await query.answer()
         keyboard = InlineKeyboardMarkup(
             [
@@ -60,7 +60,7 @@ async def cb_handler(client, query):
         )
         return
 
-    elif query.data == "about_data":
+    elif query.data == "close_data":
         await query.answer()
         keyboard = InlineKeyboardMarkup(
             [
